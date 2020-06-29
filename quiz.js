@@ -1,5 +1,3 @@
-import topic from './elf.js';
-
 let names = ['waterfalls', 'docks', 'glade', 'redwoods', 'nenya', 'vilya', 'narya', 'lasgalen', 'orcrist', 'barahir', 'glamdring', 'phial', 'albatross', 'squirrel', 'otter', 'elk', 'thranduil', 'elrond', 'gil-galad', 'galadriel'];
 
 
