@@ -1,0 +1,83 @@
+body {
+  text-align: center;
+  background-image: url("./ring.jpg");
+  background-size: cover;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+h1 {
+  color: #DEB843;
+  font-family: 'Metal Mania', cursive;
+  font-size: 4.0rem;
+  font-weight: 300;
+  margin: 20px;
+}
+
+p {
+  font-weight: 500;
+}
+h3 {
+  font-size: 1.5rem;
+}
+
+p.heading {
+  font-size: 2.0rem
+}
+
+.win {
+  display: none;
+}
+.quiz {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  border: solid 3px #DEB843;
+  border-radius: 3px;
+  background-image: url('./parchment.jpeg');
+  max-width: 800px;
+}
+.question img {
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 10px;
+  background-color: white;
+  box-sizing: border-box;
+  width: 310px;
+  height: 310px;
+}
+
+.win {
+  max-width: 800px;
+  margin: auto;
+  max-height: 400px;
+  min-height: 275px;
+  text-align: justify;
+  border: solid 3px #DEB843;
+  border-radius: 3px;
+  background-image: url('./parchment.jpeg');
+}
+
+.win img {
+  diplay: inline-block;
+  float: left;
+  margin: 10px;
+}
+
+.win h2 {
+  color: #DEB843;
+  font-family: 'Metal Mania', cursive;
+  font-size: 2.0rem;
+}
+
+win p {
+  padding: 10px;
+  width: auto;
+}
+
+#reset {
+  margin: 25px;
+  width: 200px;
+  height: 50px;
+  border-radius: 3px;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Elf Home Quiz</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+    </style>
+  </head>
+  <body>
+    <h1>Where is your elvish home?</h1>
+    <p class="heading">Choose one image for each question to find out where you would live as an elf in the Lord of the Rings universe.</p>
+    <section class="quiz">
+      <div class="question ">
+        <h3>What is your view?</h3>
+        <img id="waterfalls" class="rivendell one" src="./css/Asheville_Waterfalls.jpg" alt="A picture of waterfalls">
+        <img id="docks" class="grey-havens one" src="./css/docks.jpg" alt="A picture of docks leading to open water">
+        <img id="glade" class="mirkwood one" src="./css/glade.jpg" alt="A pictre of a wooded glade">
+        <img id="redwoods" class="lorien one" src="./css/JedediahSmithRedwoodscrop-1024x516.jpg" alt="A picture of a redwood forest">
+      </div>
+      <div class="question">
+        <h3>Pick a piece of jewelry.</h3>
+        <img id="nenya" class="lorien two" src="./css/Nenya.jpg" alt="A picure of the mithril, diamond ring, Nenya">
+        <img id="vilya" class="rivendell two" src="./css/Vilya.jpg" alt="A picture of the gold, saphire ring, Vilya">
+        <img id="lasgalen" class="mirkwood two" src="./css/lasgalen.jpg" alt="A picture of the white gems of Lasgalen in a necklace">
+        <img id="narya" class="grey-havens two" src="./css/Narya.jpg" alt="A picture of the gold, ruby ring, Narya">
+      </div>
+      <div class="question">
+        <h3>Pick an elven relic.</h3>
+        <img id="orcrist" class="mirkwood three" src="./css/Orcrist.jpg" alt="A picture of the sword Orcrist">
+        <img id="barahir" class="rivendell three" src="./css/Ring_of_Barahir_-_LotR.jpg" alt="A picture of the Ring of Barahir">
+        <img id="glamdring" class="grey-havens three"  src="./css/Glamdring.jpg" alt="A picture of the sword Glamdring">
+        <img id="phial" class="lorien three" src="./css/Phial.jpg" alt="A picture of the Phial of Galadriel">
+      </div>
+      <div class="question">
+        <h3>Which is your pet?</h3>
+        <img id="albatross" class="grey-havens four" src="./css/albatross.jpg" alt="A picture of an albatross">
+        <img id="squirrel" class="lorien four" src="./css/squirrel.jpg" alt="A picture of a squirrel">
+        <img id="otter" class="rivendell four" src="./css/River-Otter-image-from-inte.jpg" alt="A picture of a river otter">
+        <img id="elk" class="mirkwood four" src="./css/elk.jpg" alt="A picture of an elk">
+      </div>
+      <div class="question">
+        <h3>Finally, which elf?</h3>
+        <img id="thranduil" class="mirkwood five" src="./css/Thranduil_throne_-_DoS.jpg" alt="A picture of Thranduil">
+        <img id="gil-galad" class="grey-havens five" src="./css/Elf_gil-galad.jpg" alt="A picture of Gil-Galad">
+        <img id="galadriel" class="lorien five" src="./css/galadriel.png" alt="A picture of Galadriel">
+        <img id="elrond" class="rivendell five" src="./css/Elrond_of_Rivendell.jpg" alt="A picture of Elrond">
+      </div>
+    </section>
+    <section class="results">
+    <div id="lorien-win" class="win">
+      <img src="./css/lorien.jpg" alt="A picture of lothlorien">
+      <h2>Lothlorien</h2>
+      <p>Home of lady Galadriel and lord Celeborn, in Lothlorien you will find your home among its massive tees up high. The Fellowship of the Ring visited "Lorien" after escapeing the mines of Moria. </p>
+    </div>
+    <div id="rivendell-win" class="win">
+      <img src="./css/rivendell.jpg" alt="A picture of Rivendell">
+      <h2>Rivendell</h2>
+      <p>Home of lord Elrond and his daughter Arwen, in Rivendell your home is at the foot of the Misty Mountains. The Fellowship of the Ring was formed here and Aragon's sword Narsil was reforged as Andruil.</p>
+    </div>
+    <div id="grey-havens-win" class="win">
+      <img src="./css/Mithlondwide.jpg" alt="A picture of the Grey Havens">
+      <h2>The Grey Havens</h2>
+      <p>Also called Mithlond, the Grey Havens are the departure point for the Undying Lands and the city of Valinor. Gandlaf, Frodo, Sam, Bilbo, Gimli, and Legolas all left for Valinor according to Tolkein's works.</p>
+    </div>
+    <div id="mirkwood-win" class="win">
+      <img src="./css/Desolation_-_Mirkwood.jpg" alt="A picture of Mirkwood">
+      <h2>Mirkwood</h2>
+      <p>Home of King Thranduil, and his son Legolas, the Woodland Realm known to some as Mirkwood is the largest of the elf kingdoms. Bilbo and the dwarves were captured here during their jouney to the Lonely Mt.</p>
+    </div>
+    </section>
+    <form>
+      <button id="reset" type="button" name="reset">Reset</button>
+    </form>
+    <script src="./quiz.js"></script>
+  </body>
+</html>
